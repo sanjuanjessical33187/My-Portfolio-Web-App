@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	scroll-behavior: smooth;
+	font-family: Nunito, sans-serif;
+
+}
+
+:root {
+	/*--bg-color: #191f36;*/ /*dark blue*/
+	/*--bg-color: #f774e6;*/ /*magenta*/
+	/*--bg-color: #f9acfa;*/ /*light magenta*/
+	/*--bg-color: #531654;*/
+	--bg-color:	#300930; /*purple*/
+	/*--snd-bg-color: #262b40;*/ /*lighted of blue*/
+	--snd-bg-color: #471447;
+	--text-color: #fff;
+	/*--text-color: #711673;*/
+	/*--main-color: #59B2F4;*/
+	/*--main-color: #370457;*/
+	--main-color: #f55381;
+}
+
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+body {
+	background: var(--bg-color);
+	color: var(--text-color);
+}
+
+section {
+	min-height: 100vh;
+	padding: 10rem 9% 2rem;
+}
